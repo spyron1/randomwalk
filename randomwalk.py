@@ -35,7 +35,7 @@ class field(object):
         oldloc=self.loc
         xc,yc=cp.move(dist)
         self.loc=oldloc.move(xc,yc)
-    def getloc(self):
+    def getloc(self):ac
         return self.loc
     def getdrunk(self):
         return self.drunk
